@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border:border-box;
+}
+.background {
+    height:800px;
+    background-image: url(./netflix\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter:blur();
+}
+.header {
+    height:100px;
+
+    display: flex;
+    
+}
+.lang 
+{
+    height: 40px;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    
+   
+}
+.logo {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.sign {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.75rem + 1rem + 0.5rem);
+    margin-left: 800px;
+    margin-top: 20px;
+   
+
+}
+#signin {
+    height:40px;
+    width:70px;
+    background-color: red;
+    margin-left:20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.main {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+ 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    filter:blur();
+}
+.fourth {
+    margin-top: 20px;
+}
+input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    height:40px;
+    max-width: 400px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.b1 {
+    padding: 10px 20px;
+    height:60px;
+    width:200px;
+    max-width: 400px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #f40612;
+}
+.sec {
+    height:600px;
+    background-color: black;
+    display: flex;
+}
+.sec1 {
+    width:50%;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+.sec2 {
+    height:600px;
+    width:auto;
+    /* background-image: url(./tv.png);
+    background-size: cover;
+      */
+      margin-right: 200px;
+      margin-top: 50px;
+
+}
+.three {
+    height:600px;
+    background-color: black;
+   
+}
+
+.mobile {
+    height:500px;
+    width:50%;
+    background-image: url(./mobile-0819.jpg);
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white;
+   
+   
+}
+.download {
+    height:110px;
+    width:350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 20px;
+    border-color: white;
+    border: white;
+    padding: 8px;
+    margin-right: 120px;
+
+}
+.three2 {
+    color:white;
+}
+.four {
+    height:600px;
+    background-color: black;
+}
